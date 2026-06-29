@@ -9,13 +9,13 @@
   font-size:15px;
   font-weight: 600;
   box-shadow: 0 8px 32px rgba(255, 255, 0,0.2);
-  border-radius: 15px;
+  border-radius: 30px;
 }
 .buttongui:hover {
  background:linear-gradient(135deg, #FDF4BA, #F3B1F1, #FDF4BA);
   transform: scale(1.02);
   box-shadow: 0 8px 32px rgba(255, 255, 0,0.6);
   background-color: rgba(0,0,0,1);
-  border: 1px solid yellow;
-  color: #000
+  border: 2px solid yellow;
+  color: #000;
 }
