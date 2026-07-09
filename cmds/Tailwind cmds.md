@@ -1,3 +1,4 @@
 npm install tailwindcss @tailwindcss/cli
 @import "tailwindcss";
 npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
