@@ -20,10 +20,12 @@ jobs:
           node-version: 20
 
       - name: Install dependencies
-        run: npm install
+        run: |
+          npm install
+          chmod +x node_modules/.bin/tailwindcss
 
       - name: Build Tailwind CSS
-        run: npx tailwindcss -i ./index.css -o ./output.css --minify
+        run: npx --yes tailwindcss -i ./index.css -o ./output.css --minify
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
