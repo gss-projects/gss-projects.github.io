@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@theme{
+    --font-ubuntu : "Ubuntu", sans-serif;
+    --text-sanjayxl : 10rem;
+    
+}
+
+.btns-gui{
+    @apply bg-white text-black border rounded-xl border-white
+}
